@@ -1,0 +1,840 @@
+1
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+2
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+3
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+4
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+5
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+6
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+7
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+8
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+9
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+10
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+11
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance.  
+12
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+13
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+14
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance.  
+15
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+16
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+17
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+18
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+19
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+20
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+21
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+22
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+23
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+24
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+25
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+26
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+27
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
+28
+The RandomAccessFile class allows us to jump to a certain location 
+in the file by using the seek() method. Once the file pointer has been 
+positioned, data can be read from and written to the file using the 
+DataInput and DataOutput interfaces. These interfaces allow us to read 
+and write data in a platform-independent manner. The current position 
+of the file pointer can be obtained by calling the getFilePointer() method.
+This example reads a sequence of bytes into the dest byte array passed 
+as parameter to the read() method. The read() method will start reading 
+in the file from the current file position of the RandomAccessFile. 
+The read() method will start writing data into the byte array starting 
+from the array position provided by the offset parameter, and at most 
+the number of bytes provided by the length parameter. This read() method 
+returns the actual number of bytes read.
+You can write a single byte to a RandomAccessFile using its write() 
+method which takes an int as parameter. The byte will be written to 
+the current file position of the RandomAccessFile. The previous byte 
+at that position will be overwritten. Here is an example of writing 
+a single byte to a Java RandomAccessFile:
+This example writes the array of bytes to the current file position 
+of the RandomAccessFile. Any bytes currently at this position will 
+be overwritten with the new bytes.
+Just like with the read() method the write() method advances the file 
+pointer after being called. That way you don't have to constantly move 
+the file pointer to write data to a new location in the file.
+You can also write parts of a byte array to a RandomAccessFile, instead 
+of all of the byte array. Here is an example of writing part of a byte 
+array to a Java RandomAccessFile:
+The RandomAccessFile has a close() method which must be called when 
+you are done using the RandomAccessFile instance. 
